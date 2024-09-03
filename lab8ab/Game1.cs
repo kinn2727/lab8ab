@@ -9,6 +9,8 @@ namespace lab8ab
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        int mingkey = 1;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
